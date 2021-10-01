@@ -1,0 +1,13 @@
+PROBLEM STATEMENT:
+
+You're working on making some mini-games, and you've decided to make a simpler variant of the game Mahjong.
+
+In this variant, players have a number of tiles, each marked 0-9. The tiles can be grouped into pairs or tiples of the same tile.
+A "complete hand" is defined as a collection of tiles where all the tiles can be grouped into any number of triples (zero or more)
+and exactly one pair, and each tile is used in exactly one triple or pair.
+
+Write a function that takes a string representing a player's tiles in no particular order, and returns the string "COMPLETE" if the hand is complete,
+and "NOT COMPLETE" if it is not.
+
+Each tile may only be used in a single group (either a pair or a triple). All tiles must be used to complete a hand. There may be a pair and triples of the same tile.
+A single pair with no triples (ex:99) is a valid hand. The input will only consist of 0-9
